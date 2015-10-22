@@ -1,0 +1,54 @@
+.navbar-brand img{
+	max-width: 200px;
+
+
+}
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 150px;
+    padding-top: 0;
+    padding-left: 0;
+    height: 100px;
+}
+
+
+.navbar-default, .navbar-inverse {
+
+  background-image: none;
+  background-repeat: no-repeat;
+
+ }
+ 
+.navbar-brand{
+    padding-left: 0;
+}
+
+.navbar .container{
+
+    margin-left: 0;
+    padding-left: 0;
+}
+
+@media (max-width: 640px) {
+
+.slider img {
+    display: none;
+}
+
+}
+
+.slider img {
+    max-width: 100%;
+}
+
+
+
+
+@media (min-width: 640px) {
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 150px;
+    height: $navbar-height;
+    padding-top: 0;
+}
+}

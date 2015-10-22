@@ -1,0 +1,17 @@
+body{
+    padding-top: 70px;
+}
+
+
+#myCarousel{
+
+    height: 200px;
+    margin-top: $navbar-height;
+}
+
+#sliderone{
+    background-image: url("/images/001.png");
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 150px;
+}

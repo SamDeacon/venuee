@@ -1,0 +1,97 @@
+body{
+    background-image: url('../images/misc/jpgsmall.jpg');
+}
+* {
+    font-family: helvetica;
+}
+
+/********************
+MENU - NAVBAR
+*********************/
+._nav{
+    background-color: #10b7b3;
+    color: white;
+    border: none;
+    border-radius: 0;
+}
+
+
+.navbar-default .navbar-nav li a{
+  color: white;
+  font-weight: 600;
+}
+.navbar-wrapper .navbar{
+    border-radius: 0;
+}
+
+.navbar-header{
+    
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+/********************
+SLIDER - CAROUSEL
+*********************/
+
+.carousel-caption{
+    text-align: left;
+    padding-left: 27%;
+}
+
+._button{
+    background-color: white;
+    padding: 6px 10px;
+    color: #10b7b3;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
+
+.carousel-caption h1, .carousel-caption h2 {
+font-weight: 700;
+    
+}
+
+.carousel-caption h1, .carousel-caption h2, .carousel-caption p { 
+  text-shadow: 1px 1px 1px #333, 
+               3px 3px 5px #222; 
+}
+
+
+.carousel-caption h1{
+    font-size: 3em;
+}
+
+.carousel-caption h2{
+    font-size: 2.9em;
+}
+
+/********************
+1st SECTION - DOWNLOAD
+*********************/
+
+.inbetweener{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.inbetweener strong{
+    font-weight: 700;
+}
+
+.section-download{
+    height: 100px;
+    margin: 5px 0;
+    background-color: white;
+    
+}
+
+.container-download{
+ background-color: pink;   
+}
