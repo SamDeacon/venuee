@@ -13,6 +13,7 @@ MENU - NAVBAR
     color: white;
     border: none;
     border-radius: 0;
+      box-shadow: 0 3px 9px -2px rgba(0,0,0,0.29)
 }
 
 
@@ -78,20 +79,99 @@ font-weight: 700;
 .inbetweener{
     color: white;
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-.inbetweener strong{
+    margin: 1.5em 0;
     font-weight: 700;
 }
 
 .section-download{
-    height: 100px;
     margin: 5px 0;
-    background-color: white;
+    background: linear-gradient(#10b7b3 62%, white 37%);
+
+}
+#dl-phone{
+    height: 45vh;
+}
+
+
+@media (min-width: 940px) {
+#dl-phone{
+    height: 700px
     
 }
 
-.container-download{
- background-color: pink;   
+.dl-text h3{
+    font-size: 2.9em;
 }
+
+.dl-text p{
+    font-size: 1.3em;
+}
+
+} /***** end bigscreen *****/
+.dl-text{
+    color: white;
+    padding: 3%;
+}
+
+.vcenter{
+     display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+#dl-phone{
+    float: right;
+    margin: 20px 0 15px 0;
+}
+
+.dl-icon-row img{
+    padding: 5px 5px 5px 0;
+    margin: 20px 10px 0 0;
+}
+
+.dl-text h3{
+    font-weight: 500;
+}
+.dl-text p{
+    font-weight: 100;
+    padding-right: 6%;
+}
+
+
+/********************
+2nd SECTION - CONTACT
+*********************/
+
+.section-contact{
+    height: 1000px;
+    background-color: #E3D1A6;
+    color: #B5A47B;
+}
+
+
+/********************
+DAS FOOTER
+*********************/
+
+
+ ._footer {
+   text-align: center;  
+   color: white;
+     
+ }
+
+ ._footer h2 {
+    color: #10b7b3;
+    font-size: 2em;
+ }
+ 
+  ._footer a {
+    font-size: 1.4em;
+       color: white;
+ }
+ 
+ ._footer .text-left{
+     padding-left: 55px;
+     
+ }
+ 
