@@ -9,11 +9,13 @@
     font-weight: 700;
 }
 
+
 .section-download{
     margin: 5px 0;
     background: linear-gradient($sitecolor 62%, white 37%);
 
 }
+
 #dl-phone{
     height: 45vh;
 }
@@ -68,14 +70,47 @@
     font-size: 1.3em;
 }
 
-} /***** end  over 940px *****/
+}/***** end  over 940px *****/
 
-/***** end  mobile <600px *****/
+
 /*****  over 940px *****/
-@media (max-width: 600px) {
-    .dl-icon-row img{
-max-width: 180px;
-margin-right: 0;
-    }
+@media (min-width: 600px) { 
+#dl-phone{
+    height: 350px;
     
 }
+}
+
+
+@media (max-width: 600px) { /***** mobile <600px *****/
+
+.dl-text h3{
+    font-size: 2.0em;
+    margin-left: -99px;
+        color: white;
+    text-shadow:
+    -1px -1px 0 $sitecolor,
+    1px -1px 0 $sitecolor,
+    -1px 1px 0 $sitecolor,
+    1px 1px 0 $sitecolor;  
+}
+
+.dl-text p{
+    font-size: 1.0em;
+
+}
+    
+    
+    
+    .dl-icon-row img{
+    max-width: 48vw;
+    margin-right: 0;
+    }
+    .dl-icon-row{
+        float: right;
+        
+    }
+    
+}/***** end  mobile <600px *****/
+
+

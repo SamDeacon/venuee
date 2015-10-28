@@ -5019,12 +5019,28 @@ textarea[name=message] {
   .dl-text p {
     font-size: 1.3em; } }
 /***** end  over 940px *****/
-/***** end  mobile <600px *****/
 /*****  over 940px *****/
+@media (min-width: 600px) {
+  #dl-phone {
+    height: 350px; } }
 @media (max-width: 600px) {
+  /***** mobile <600px *****/
+  .dl-text h3 {
+    font-size: 2.0em;
+    margin-left: -99px;
+    color: white;
+    text-shadow: -1px -1px 0 #10b7b3, 1px -1px 0 #10b7b3, -1px 1px 0 #10b7b3, 1px 1px 0 #10b7b3; }
+
+  .dl-text p {
+    font-size: 1.0em; }
+
   .dl-icon-row img {
-    max-width: 180px;
-    margin-right: 0; } }
+    max-width: 48vw;
+    margin-right: 0; }
+
+  .dl-icon-row {
+    float: right; } }
+/***** end  mobile <600px *****/
 /********************
 2nd SUBSCRIBE PAGE
 *********************/
@@ -5056,6 +5072,13 @@ textarea[name=message] {
 
   .subscribe-form input[type=text] {
     min-width: 25vw; } }
+@media (max-width: 445px) {
+  .subscribe-form {
+    margin-left: -130px; } }
+@media (max-width: 580px) {
+  .section-download#subscribe {
+    margin: 5px 0;
+    background: linear-gradient(#10b7b3 75%, white 37%); } }
 /********************
 MENU - NAVBAR
 *********************/
@@ -5201,5 +5224,9 @@ SLIDER - CAROUSEL
   /**** MOBILE UNDER 480  ****/
   .carousel-caption {
     text-align: CENTER;
-    padding-left: 0%; } }
+    padding-left: 0%; }
+    .carousel-caption h1 {
+      font-size: 2.4em; }
+    .carousel-caption h2 {
+      font-size: 2em; } }
 /**** END MOBILE UNDER 480px  ****/
