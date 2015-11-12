@@ -86,3 +86,13 @@ MENU - NAVBAR
 
 } /**** END TABLET UNDER 768  ****/
 
+.top-login-navbar{
+  li a:hover{
+    background-color: rgba(0,0,0,0);
+    color: $sitecolor;
+  }
+  li a{
+    font-weight: 700;
+    color: white;
+  }
+}

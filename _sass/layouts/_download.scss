@@ -16,11 +16,6 @@
 
 }
 
-#dl-phone{
-    height: 45vh;
-}
-
-
 
 
 
@@ -53,15 +48,23 @@
     font-weight: 100;
     padding-right: 6%;
 }
-
-
-/*****  over 940px *****/
-@media (min-width: 940px) { 
+/*****  over 1360 *****/
+@media (min-width: 1380px) { 
 #dl-phone{
     height: 700px;
     
 }
 
+}/***** end  over 1360 *****/
+
+/*****  over 940px *****/
+@media (min-width: 940px) and (max-width: 1380px) { 
+#dl-phone{
+    height: 600px;
+    
+}
+}
+@media (min-width: 940px){
 .dl-text h3{
     font-size: 2.9em;
 }
@@ -74,11 +77,21 @@
 
 
 /*****  over 940px *****/
-@media (min-width: 600px) { 
+@media (max-width: 940px) { 
 #dl-phone{
-    height: 350px;
+    height: 550px;
     
 }
+
+.dl-text h3{
+    font-size: 2.9em;
+}
+
+.dl-text p{
+    font-size: 1.3em;
+}
+
+
 }
 
 

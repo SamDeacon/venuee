@@ -2,6 +2,49 @@
 SLIDER - CAROUSEL
 *********************/
 
+.item{
+      width: 100%;
+    background-size: cover;  
+}
+.carousel-inner {
+
+.slider-img-1{
+
+    background-image: url('/images/slider/14stock.jpg');
+
+}
+.slider-img-2{
+
+    background-image: url('/images/slider/13stock.jpg');
+
+}
+
+.slider-img-3{
+
+    background-image: url('/images/slider/9stock.jpg');
+}
+
+.slider-img-4{
+
+    background-image: url('/images/slider/1stock.jpg');
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .carousel-caption{
     text-align: left;
     padding-left: 29%;
@@ -47,16 +90,6 @@ font-weight: 700;
 
 @media (max-width: 768px) { /**** TABLET UNDER 768  ****/
   .carousel-inner .item img{
-    display: none;
-  }
-  
-  .carousel-inner .item{
-  background: none;
-  background-size: 100%;
-  }
-    .carousel-inner{
-  background: url(../images/download/smallslider.jpg) center no-repeat;
-  background-size: 100%;
   }
   
   .navbar-toggle{
@@ -87,3 +120,21 @@ font-weight: 700;
 }
 
 } /**** END MOBILE UNDER 480px  ****/
+
+
+@media (max-width: 650px) { /**** MOBILE UNDER 480  ****/
+  .slider-img-1{
+
+background-position: calc(20%) calc(100%);    
+}
+
+
+} /**** END MOBILE UNDER 480px  ****/
+
+.carousel{
+  margin-bottom: 0;
+}
+
+.container-fluid{
+  margin-top: 0;
+}
