@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<title>Venueé | Find your event where ever you are</title>
 		<meta name="generator" content="Bootply" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0;">
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -71,13 +71,47 @@
 </style>
 
           <ul class="nav navbar-nav navbar-right top-login-navbar">
-            <li><a href="/login.html">login</a></li>
+            <li><a href="" data-toggle="modal" data-target="#myModal">login</a></li>
             <li><a href="/registercompany.html">register</a></li>
             <li><a href="/login.html">sign out</a></li>
           </ul>
 
 <hr class="top-space"/>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+  <section class="modal-content well" id="login">
+    
+    <div class="container-fluid">
 
+
+      <form class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <br/>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <br/>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me</input>
+          </label>
+        </div>
+
+					<button type="button" class="btn form-button-confirm">SUBMIT</button>
+        			<div class="etc-login-form">
+				
+				<p>new user? <a href="/registercompany.html">create new account</a></p>
+				<p>forgot your password? <a href="#">click here</a></p>
+			</div>					
+      </form>
+
+    </div> <!-- /container -->
+    </section>
+  </div>
+</div>
       
 
 	          
@@ -87,7 +121,7 @@
       
       
   <section class="container-fluid form-container-plain" id="create-event">
-<div class="container">
+<div class="container-fluid">
 	
 	
     <div class="top-profile-cont">	
@@ -141,7 +175,7 @@
 
 
   
-  <div class="dozey">
+  <div class="event-img-wrap">
     <div class="hovereffect">
         <img class="img-responsive" src="http://in1.ccio.co/v5/8B/vE/56365432806436852ex9gKbk5c.jpg" alt="">
         <div class="overlay">
@@ -155,11 +189,11 @@
 
 
   
-  <div class="dozey">
+  <div class="event-img-wrap">
     <div class="hovereffect">
         <img class="img-responsive" src="http://cdn.designrfix.com/wp-content/uploads/2011/11/flyer-templates-nov-31.jpg" alt="">
         <div class="overlay">
-           <h2>Sculpture event</h2>
+           <h2>Release me</h2>
            <a class="info" href="#">click to modify</a>
         </div>
     </div>
@@ -169,7 +203,7 @@
 
 
   
-  <div class="dozey">
+  <div class="event-img-wrap">
     <div class="hovereffect">
         <img class="img-responsive" src="http://www.cable.co.uk/images/news/bt-sport-wins-rights-to-l-700001000.jpg" alt="">
         <div class="overlay">
@@ -183,7 +217,7 @@
 
 
   
-  <div class="dozey">
+  <div class="event-img-wrap">
     <div class="hovereffect">
         <img class="img-responsive" src="http://img.ffffound.com/static-data/assets/6/9c154f18428f59962557458082887dfd7a623144_m.jpg" alt="">
         <div class="overlay">
@@ -197,11 +231,11 @@
 
 
   
-  <div class="dozey">
+  <div class="event-img-wrap">
     <div class="hovereffect">
-        <img class="img-responsive" src="http://www.travisdoddsphysio.com/wp-content/uploads/2014/06/Peak-Physical-Performance.jpg" alt="">
+        <img class="img-responsive" src="http://listings07.skiddlecdn.co.uk/2/2/b/665306_0_fridays-at-tiger-tiger--10-hour-party--manchester39s-biggest-event-5pm--3am_400.jpg" alt="">
         <div class="overlay">
-           <h2>Running up stairs</h2>
+           <h2>Tigertiger</h2>
            <a class="info" href="#">click to modify</a>
         </div>
     </div>
@@ -211,23 +245,9 @@
 
 
   
-  <div class="dozey">
+  <div class="event-img-wrap">
     <div class="hovereffect">
-        <img class="img-responsive" src="http://in1.ccio.co/v5/8B/vE/56365432806436852ex9gKbk5c.jpg" alt="">
-        <div class="overlay">
-           <h2>Nike 10K</h2>
-           <a class="info" href="#">click to modify</a>
-        </div>
-    </div>
-</div>
-  
-  
-
-
-  
-  <div class="dozey">
-    <div class="hovereffect">
-        <img class="img-responsive" src="http://img3.wikia.nocookie.net/__cb20121004004337/creepypasta/images/2/25/2-B-WUT-U-R-300x300.jpg" alt="">
+        <img class="img-responsive" src="http://www.empireexhibits.com/wp-content/uploads/2013/12/2013-12-06_16-57-07_592-533x472.jpg" alt="">
         <div class="overlay">
            <h2>Sculpture event</h2>
            <a class="info" href="#">click to modify</a>
@@ -239,35 +259,7 @@
 
 
   
-  <div class="dozey">
-    <div class="hovereffect">
-        <img class="img-responsive" src="http://www.cable.co.uk/images/news/bt-sport-wins-rights-to-l-700001000.jpg" alt="">
-        <div class="overlay">
-           <h2>Cricket 1 day</h2>
-           <a class="info" href="#">click to modify</a>
-        </div>
-    </div>
-</div>
-  
-  
-
-
-  
-  <div class="dozey">
-    <div class="hovereffect">
-        <img class="img-responsive" src="http://img.ffffound.com/static-data/assets/6/9c154f18428f59962557458082887dfd7a623144_m.jpg" alt="">
-        <div class="overlay">
-           <h2>Art Event</h2>
-           <a class="info" href="#">click to modify</a>
-        </div>
-    </div>
-</div>
-  
-  
-
-
-  
-  <div class="dozey">
+  <div class="event-img-wrap">
     <div class="hovereffect">
         <img class="img-responsive" src="http://www.travisdoddsphysio.com/wp-content/uploads/2014/06/Peak-Physical-Performance.jpg" alt="">
         <div class="overlay">
@@ -283,37 +275,6 @@
 
    
              
-        <!--<div class="box-3 box col-md-4 col-sm-6">-->
-        <!--    <img src="https://placehold.it/300/09f/fff.png" alt="event-placeholder" class="img-placeholder img-responsive "/>-->
-        <!--    <span class="caption fade-caption">-->
-        <!--        <h3>Fade Caption</h3>-->
-        <!--        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>-->
-        <!--    </span>-->
-        <!--</div>-->
-
-        <!--<div class="box-3 box col-md-4 col-sm-6">-->
-        <!--    <img src="https://placehold.it/300/09f/fff.png" alt="event-placeholder" class="img-placeholder img-responsive "/>-->
-        <!--    <span class="caption fade-caption">-->
-        <!--        <h3>Fade Caption</h3>-->
-        <!--        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>-->
-        <!--    </span>-->
-        <!--</div>-->
-        
-        <!--<div class="box-3 box col-md-4 col-sm-6">-->
-        <!--    <img src="https://placehold.it/300/09f/fff.png" alt="event-placeholder" class="img-placeholder img-responsive "/>-->
-        <!--    <span class="caption fade-caption">-->
-        <!--        <h3>Fade Caption</h3>-->
-        <!--        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>-->
-        <!--    </span>-->
-        <!--</div>-->
-
-        <!--<div class="box-3 box col-md-4 col-sm-6">-->
-        <!--    <img src="https://placehold.it/300/09f/fff.png" alt="event-placeholder" class="img-placeholder img-responsive "/>-->
-        <!--    <span class="caption fade-caption">-->
-        <!--        <h3>Fade Caption</h3>-->
-        <!--        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>-->
-        <!--    </span>-->
-        <!--</div>-->
 
 
 
@@ -323,15 +284,107 @@
       	</div>
       
       </div>
-      <div class="tab-pane fade" id="manage-account">
+      <div class="tab-pane fade " id="manage-account">
       	
       	
       	
       	
       	
       	
-          <h2>Profile Content Goes Here</h2>
-          <img src="http://lorempixel.com/400/400/cats/2" alt="Cats"/>
+          <h2>Add / Edit details here</h2>
+          	<div class="col-md-12 form-cont-well">
+			<a href="#">
+	<img src="http://placehold.it/200?text=Your+logo+here" class="form-logo-img"></img>
+    </a>
+    <br/>
+
+	<div class="row">
+				<form>
+					<div class="col-sm-12">
+		
+						
+						
+						<div class="row">
+							<div class="col-sm-6 form-group">
+								<label>First Name</label>
+								<input type="text" placeholder="Enter First Name Here.." class="form-control">
+							</div>
+							<div class="col-sm-6 form-group">
+								<label>Last Name</label>
+								<input type="text" placeholder="Enter Last Name Here.." class="form-control">
+							</div>
+						</div>
+						
+						
+																<div class="row">
+							<div class="col-sm-6 form-group">
+								<label>Title</label>
+								<input type="text" placeholder="Enter Title Here.." class="form-control">
+							</div>		
+							<div class="col-sm-6 form-group">
+								<label>Company</label>
+								<input type="text" placeholder="Enter Company Name Here.." class="form-control">
+							</div>	
+						</div>
+						
+						
+						
+						
+						
+						<div class="form-group">
+							<label>Address</label>
+							<textarea placeholder="Enter Address Here.." rows="3" class="form-control"></textarea>
+						</div>	
+						<div class="row">
+							<div class="col-sm-4 form-group">
+								<label>Country</label>
+								<input type="text" placeholder="Enter Country Name Here.." class="form-control">
+							</div>	
+							<div class="col-sm-4 form-group">
+								<label>City</label>
+								<input type="text" placeholder="Enter City Name Here.." class="form-control">
+							</div>	
+							<div class="col-sm-4 form-group">
+								<label>Post Code</label>
+								<input type="text" placeholder="Enter Post Code Here.." class="form-control">
+							</div>		
+						</div>
+						
+					<div class="form-group">
+						<label>Phone Number</label>
+						<input type="text" placeholder="Enter Phone Number Here.." class="form-control">
+					</div>		
+					<div class="form-group">
+						<label>Email Address</label>
+						<input type="text" placeholder="Enter Email Address Here.." class="form-control">
+					</div>
+					<p>
+						COMPANY VERIFICATION
+					</p>
+										<p>
+						To be verified in our app please insert the following information
+					</p>
+					
+					<div class="form-group">
+						<label>CO. TAX REGISTRATION NUMBER</label>
+						<input type="text" placeholder="Enter Website Name Here.." class="form-control">
+					</div>
+					<div class="form-group">
+						<label>CO. REGISTRATION NUMBER</label>
+						<input type="text" placeholder="Enter Website Name Here.." class="form-control">
+					</div>
+					
+					
+					
+					
+					
+					
+					<button type="button" class="btn form-button-confirm">SUBMIT</button>					
+					</div>
+				</form> 
+				</div>
+	
+	</div>
           
           
           
@@ -340,7 +393,7 @@
           
           
       </div>
-    </div>
+
     
 </div>
 

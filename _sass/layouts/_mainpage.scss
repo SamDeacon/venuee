@@ -15,3 +15,9 @@ body{
 .standout-text{
     font-size: 1.8em;
 }
+
+@media (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+}

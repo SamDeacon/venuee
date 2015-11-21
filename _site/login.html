@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<title>Venueé | Find your event where ever you are</title>
 		<meta name="generator" content="Bootply" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0;">
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -71,13 +71,47 @@
 </style>
 
           <ul class="nav navbar-nav navbar-right top-login-navbar">
-            <li><a href="/login.html">login</a></li>
+            <li><a href="" data-toggle="modal" data-target="#myModal">login</a></li>
             <li><a href="/registercompany.html">register</a></li>
             <li><a href="/login.html">sign out</a></li>
           </ul>
 
 <hr class="top-space"/>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+  <section class="modal-content well" id="login">
+    
+    <div class="container-fluid">
 
+
+      <form class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <br/>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <br/>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me</input>
+          </label>
+        </div>
+
+					<button type="button" class="btn form-button-confirm">SUBMIT</button>
+        			<div class="etc-login-form">
+				
+				<p>new user? <a href="/registercompany.html">create new account</a></p>
+				<p>forgot your password? <a href="#">click here</a></p>
+			</div>					
+      </form>
+
+    </div> <!-- /container -->
+    </section>
+  </div>
+</div>
       
 
 <!-- CONTACT SECTION ******************
